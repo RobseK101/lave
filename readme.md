@@ -15,7 +15,14 @@ This utility views and extracts the contents of game asset archives.
 
 ## External dependencies
 
-To compile this project you need wxWidgets.
+- [wxWidgets](https://github.com/wxWidgets/wxWidgets) as its widget toolkit.
+- [CMake](https://cmake.org/) to build.
+
+## Screenshots
+
+![The view](/images/screenshot01.png)
+![Sorting entries by filename](/images/screenshot02.png)
+
 
 ## Background
 
@@ -24,3 +31,4 @@ Since at this point I am mostly interested in reverse engineering and writing da
 Since I have also reversed the structures for archives of *Lego Racers*, *Saints Row 2* and *Lego Island 2*[^1], functionality for these might be added in the future.
 
 [^1]: By which I do not claim to have reversed them first! Since I like reversing, though, I did actually reverse them myself. 
+
