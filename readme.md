@@ -16,7 +16,10 @@ This utility views and extracts the contents of game asset archives.
 ## External dependencies
 
 - [wxWidgets](https://github.com/wxWidgets/wxWidgets) as its widget toolkit.
-- [CMake](https://cmake.org/) to build.
+
+## Build environment
+
+This project is build using [CMake](https://cmake.org/) on MS Windows. 
 
 ## Screenshots
 
