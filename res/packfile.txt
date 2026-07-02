@@ -1,0 +1,9 @@
+[XRPLIST]
+[options]
+case insensitive = false
+[end]
+
+[files]
+LAVE-Logo.png
+LAVE-Logo.ico
+[end]
