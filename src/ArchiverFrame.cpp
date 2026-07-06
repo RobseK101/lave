@@ -46,10 +46,10 @@ SOFTWARE.
 #define RK_APPCOPYRIGHTNOTICE RK_APPCOPYRIGHT " " RK_APPAUTHOR
 #define RK_APPDESCRIPTION "A simple viewer end extractor for linear (i.e. non-branching) data archives."
 
-#define RCS_OPEN_MSG "Open rcs.img"
-#define GTA3_OPEN_MSG "Open GTA III/VC img file"
+#define RCS_OPEN_MSG "Open Davilex IMG file"
+#define GTA3_OPEN_MSG "Open GTA III/VC IMG file"
 
-#define RCS_OPEN_FILTER "Autobahn Raser II rcs.img|rcs.img"
+#define RCS_OPEN_FILTER "Davilex IMG|*.img"
 #define GTA3_OPEN_FILTER "GTA III IMG|*.img"
 
 wxBEGIN_EVENT_TABLE(ArchiverFrame, wxFrame)
@@ -68,7 +68,7 @@ ArchiverFrame::ArchiverFrame() : wxFrame(nullptr, wxID_ANY, RK_APPNAME, wxDefaul
 	SetIcon(wxICON(APPICON)); 
 	wxPanel* panel = new wxPanel(this, wxID_ANY);
 	wxMenu* openSubmenu = new wxMenu();
-	openSubmenu->Append(ID_MENUOPENRCS, "Autobahn Raser II rcs.img");
+	openSubmenu->Append(ID_MENUOPENRCS, "Davilex IMG");
 	openSubmenu->Append(ID_MENUOPENGTA3, "GTA III/VC IMG");
 	wxMenuItem* openMenuItem = new wxMenuItem((wxMenu*)0, wxID_ANY, "Open",
 		wxEmptyString, wxITEM_NORMAL, openSubmenu);
