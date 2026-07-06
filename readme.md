@@ -4,8 +4,8 @@ This utility views and extracts the contents of game asset archives.
 
 ## Currently supported game archives
 
-- **rcs.img** (DAVILEX "Raser" titles: Autobahn Raser II / M25 Racer a.k.a. London Racer / Paris-Marseille Racing)
-- **\*.img** (GTA III / Vice City) 
+- **\*.img** (DAVILEX "Raser" titles: Autobahn Raser II / M25 Racer a.k.a. London Racer / Paris-Marseille Racing)
+- **\*.img** (GTA III / Vice City / San Andreas) 
 
 ## Features
 
