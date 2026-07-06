@@ -12,9 +12,9 @@
 #define RK_APPNAME "Linear Archive Viewer and Extractor"
 #define RK_APPSHORTNAME "L.A.V.E."
 #define RK_FULLAPPNAME RK_APPNAME " (" RK_APPSHORTNAME ")"
-#define RK_APPVERSION "2.1 (2026-07-01)"
+#define RK_APPVERSION "2.2 (2026-07-06)"
 #define RK_APPAUTHOR "Dr. Robert Klenk"
-#define RK_APPCOPYRIGHT "(c) 2025"
+#define RK_APPCOPYRIGHT "(c) 2026"
 #define RK_APPCOPYRIGHTNOTICE RK_APPCOPYRIGHT " " RK_APPAUTHOR
 #define RK_APPDESCRIPTION "A viewer end extractor for linear (i.e. non-branching) data archives."
 
