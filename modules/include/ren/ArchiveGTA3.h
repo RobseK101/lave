@@ -1,6 +1,7 @@
 #pragma once
 #include <ren/ArchiveNamedEntries.h>
 #include <cstdint>
+#include <ren/Utility.hpp>
 
 namespace ren
 {
@@ -15,6 +16,7 @@ namespace ren
 
     private:
         static constexpr int imgBlockSize = 0x800;
+        static constexpr FourCC ver2Mark = makeFourCC("VER2");
 
         struct DirBlock
         {

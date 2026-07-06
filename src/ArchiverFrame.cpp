@@ -358,10 +358,8 @@ void ArchiverFrame::OpenArchive(ArchiveType _type)
 			}
 			ren::CFileInputHandle* dirFile = new ren::CFileInputHandle(filepathDir.wchar_str());
 			if (!dirFile->isGood()) {
-				delete imgFile;
 				delete dirFile;
-				delete openFileDialog;
-				ren::throwException<std::runtime_error>("DIR file could not be opened!");
+				dirFile = nullptr;
 			}
 			try {
 				newArchive = new ren::ArchiveGTA3(imgFile, dirFile, true);
